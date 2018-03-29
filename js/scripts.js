@@ -1,7 +1,7 @@
 // Business Logic
 function encode(array) {
   // Index is the squareroot of the array length, rounded down
-  var index = Math.floor(Math.sqrt(array.length))
+  var index = Math.ceil(Math.sqrt(array.length))
   var encodedString = "";
   // Loop shifts nested loop one character over until it hits the index to prevent redundant characters in encodedString
   for (var x = 0; x < index; x++) {
