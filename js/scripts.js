@@ -11,9 +11,14 @@ function encode(array) {
     encodedString += array[i]
     }
   }
-  // Return array of encodedString broken into 5 character increments
+  // Return array of encodedString broken into 5 character increments using regex
   var encodedStringArray = encodedString.match(/.{1,5}/g);
-  return encodedString;
+  var encodedStringResult = "";
+  // Loops through encodedStringArray updates encodedStringResult with each 5 character increment and a space
+  encodedStringArray.forEach(function(element){
+    encodedStringResult += element + " "
+  })
+  return encodedStringResult;
 };
 
 // User Logic
