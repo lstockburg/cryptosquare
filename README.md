@@ -16,6 +16,7 @@ Convert sentence into CryptoSquare
 | Fill the grid squares with sentence left to right, one char per square| Input (iamasentence) | iama,sent,ence in rows from top to bottom |
 | Create new string by reading columns left to right | Input iama,sent,ence in rows from top to bottom | Output iseaenmncate |
 
+
 ## Setup/Installation Requirements
 
 * To view project code, _clone repository from_
